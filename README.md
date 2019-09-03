@@ -1,5 +1,5 @@
 # yolov3-opencv-cpu
-Docker file for creating yolov3 for image detection with opencv support and cpu version based on ubuntu OS script to install labelimg also  which is used for labelling the images for training in yolov3 object detection algorithm.
+Docker file for creating yolov3 for AI image detection with opencv support and cpu version based on ubuntu OS, includes script to install labelimg also  which is used for labelling the images necessary for training in yolov3 object detection algorithm.
 
 Docker file does the following
 
