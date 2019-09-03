@@ -47,6 +47,7 @@ WORKDIR /YOLO3-4-Py
 RUN pip3 install pkgconfig cython pillow requests pytesseract
 RUN python3 setup.py build_ext --inplace && mkdir /darknet/data/vehicledata/
 COPY carimages /darknet/data/vehicledata/
+RUN wget https://pjreddie.com/media/files/darknet53.conv.74
 COPY darknet53.conv.74 /darknet/data/vehicledata/
 ## Run test ##
 RUN sh download_models.sh
